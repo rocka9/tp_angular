@@ -17,7 +17,7 @@ import { CoreComponent } from './core/core.component';
     SharedModule,
     BrowserModule,
     ProductsModule,
-    AppRoutingModule
+    AppRoutingModule  // en dernier à cause de la route ** qui teste par ordre descendant
   ],
   providers: [],
   bootstrap: [AppComponent]
