@@ -11,3 +11,6 @@ import { NgModule } from '@angular/core';
 export class SharedModule { }
 
 export class CommonModule {}
+
+export class ButtonLinkComponent{}
+
