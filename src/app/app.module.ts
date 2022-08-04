@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProductsModule } from './products/products.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreComponent } from './core/core.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CoreComponent } from './core/core.component';
     SharedModule,
     BrowserModule,
     ProductsModule,
-    AppRoutingModule  // en dernier à cause de la route ** qui teste par ordre descendant
+    AppRoutingModule,
+    NgbModule  // en dernier à cause de la route ** qui teste par ordre descendant
   ],
   providers: [],
   bootstrap: [AppComponent]
