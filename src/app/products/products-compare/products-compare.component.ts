@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-products-compare',
+  selector: 'st-products-compare',
   templateUrl: './products-compare.component.html',
-  styleUrls: ['./products-compare.component.css']
+  styleUrls: ['./products-compare.component.scss']
 })
 export class ProductsCompareComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 
 }

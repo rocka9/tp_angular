@@ -4,9 +4,10 @@ import { AboutComponent } from './core/about/about.component';
 import { HomeComponent } from './core/home/home.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
 
+
 const routes: Routes = [
   {
-    path:''
+    path:'',
     component: HomeComponent,
   },
   {
@@ -24,3 +25,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
