@@ -6,14 +6,35 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './Shared/Shared.module';
+import { AboutComponent } from './core/about/about.component';
+import { HomeComponent } from './core/home/home.component';
+import { NotFoundComponent } from './core/not-found/not-found.component';
+import { TopBarComponent } from './core/top-bar/top-bar.component';
+import { ProductsComponent } from './Products/Products.component';
+import { ProductsCompareComponent } from './Products/products-compare/products-compare.component';
+import { ProductsDetailsComponent } from './Products/products-details/products-details.component';
+import { ProductsListComponent } from './Products/products-list/products-list.component';
+import { ProductsSearchComponent } from './Products/products-search/products-search.component';
+import { SharedComponent } from './Shared/Shared.component';
+import { ButtonLinkComponent } from './Shared/button-link/button-link.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-   // ProductsComponent,
-    // SharedComponent
+    AboutComponent,
+    HomeComponent,
+    NotFoundComponent,
+    TopBarComponent,
+    ProductsComponent,
+    ProductsCompareComponent,
+    ProductsDetailsComponent,
+    ProductsListComponent,
+    ProductsSearchComponent,
+    SharedComponent,
+    ButtonLinkComponent
+
   ],
   imports: [
     SharedModule,
