@@ -14,9 +14,6 @@ import { ProductsComponent } from './Products/Products.component';
 import { ProductsCompareComponent } from './Products/products-compare/products-compare.component';
 import { ProductsDetailsComponent } from './Products/products-details/products-details.component';
 import { ProductsListComponent } from './Products/products-list/products-list.component';
-import { ProductsSearchComponent } from './Products/products-search/products-search.component';
-import { SharedComponent } from './Shared/Shared.component';
-import { ButtonLinkComponent } from './Shared/button-link/button-link.component';
 
 
 
@@ -31,9 +28,7 @@ import { ButtonLinkComponent } from './Shared/button-link/button-link.component'
     ProductsCompareComponent,
     ProductsDetailsComponent,
     ProductsListComponent,
-    ProductsSearchComponent,
-    SharedComponent,
-    ButtonLinkComponent
+
 
   ],
   imports: [
